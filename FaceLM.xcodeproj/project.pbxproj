@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A77166021F262A2F00A3D2B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77166011F262A2F00A3D2B6 /* main.cpp */; };
-		A77166091F262E3000A3D2B6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A77166081F262E3000A3D2B6 /* README.md */; };
-		A771660B1F2630D500A3D2B6 /* README-Template.md in Sources */ = {isa = PBXBuildFile; fileRef = A771660A1F2630D500A3D2B6 /* README-Template.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,10 +44,16 @@
 		A77165F51F262A2F00A3D2B6 = {
 			isa = PBXGroup;
 			children = (
+				A77166121F26389800A3D2B6 /* bin */,
+				A77166101F26377800A3D2B6 /* data */,
+				A771660F1F26373000A3D2B6 /* docs */,
+				A77166131F2638AC00A3D2B6 /* lib */,
 				A771660A1F2630D500A3D2B6 /* README-Template.md */,
 				A771660C1F26355500A3D2B6 /* LICENSE.txt */,
 				A77166081F262E3000A3D2B6 /* README.md */,
 				A77166001F262A2F00A3D2B6 /* FaceLM */,
+				A77166161F263BB500A3D2B6 /* test */,
+				A77166111F26379000A3D2B6 /* examples */,
 				A77165FF1F262A2F00A3D2B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +72,49 @@
 				A77166011F262A2F00A3D2B6 /* main.cpp */,
 			);
 			path = FaceLM;
+			sourceTree = "<group>";
+		};
+		A771660F1F26373000A3D2B6 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		A77166101F26377800A3D2B6 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		A77166111F26379000A3D2B6 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		A77166121F26389800A3D2B6 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		A77166131F2638AC00A3D2B6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A77166161F263BB500A3D2B6 /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = test;
+			path = FaceLM/test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +173,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A771660B1F2630D500A3D2B6 /* README-Template.md in Sources */,
-				A77166091F262E3000A3D2B6 /* README.md in Sources */,
 				A77166021F262A2F00A3D2B6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +292,7 @@
 				A77166071F262A2F00A3D2B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
