@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A77166021F262A2F00A3D2B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77166011F262A2F00A3D2B6 /* main.cpp */; };
+		A7717CA01F26573E00A3D2B6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A7717A2E1F26573E00A3D2B6 /* README.md */; };
+		A7717CC01F2657BD00A3D2B6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A7717CBF1F2657BD00A3D2B6 /* README.md */; };
+		A7717CC21F26582400A3D2B6 /* Structure.md in Sources */ = {isa = PBXBuildFile; fileRef = A7717CC11F26582400A3D2B6 /* Structure.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +29,10 @@
 		A77165FE1F262A2F00A3D2B6 /* FaceLM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FaceLM; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77166011F262A2F00A3D2B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A77166081F262E3000A3D2B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A771660A1F2630D500A3D2B6 /* README-Template.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README-Template.md"; sourceTree = "<group>"; };
 		A771660C1F26355500A3D2B6 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A7717A2E1F26573E00A3D2B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A7717CBF1F2657BD00A3D2B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A7717CC11F26582400A3D2B6 /* Structure.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Structure.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,16 +49,17 @@
 		A77165F51F262A2F00A3D2B6 = {
 			isa = PBXGroup;
 			children = (
+				A7717CBE1F2657BD00A3D2B6 /* template */,
 				A77166121F26389800A3D2B6 /* bin */,
 				A77166101F26377800A3D2B6 /* data */,
 				A771660F1F26373000A3D2B6 /* docs */,
 				A77166131F2638AC00A3D2B6 /* lib */,
-				A771660A1F2630D500A3D2B6 /* README-Template.md */,
 				A771660C1F26355500A3D2B6 /* LICENSE.txt */,
 				A77166081F262E3000A3D2B6 /* README.md */,
 				A77166001F262A2F00A3D2B6 /* FaceLM */,
 				A77166161F263BB500A3D2B6 /* test */,
 				A77166111F26379000A3D2B6 /* examples */,
+				A771721C1F26573900A3D2B6 /* project */,
 				A77165FF1F262A2F00A3D2B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,6 +123,31 @@
 			path = FaceLM/test;
 			sourceTree = "<group>";
 		};
+		A771721C1F26573900A3D2B6 /* project */ = {
+			isa = PBXGroup;
+			children = (
+				A771721D1F26573900A3D2B6 /* ML_CV-dlib-master */,
+			);
+			path = project;
+			sourceTree = "<group>";
+		};
+		A771721D1F26573900A3D2B6 /* ML_CV-dlib-master */ = {
+			isa = PBXGroup;
+			children = (
+				A7717A2E1F26573E00A3D2B6 /* README.md */,
+			);
+			path = "ML_CV-dlib-master";
+			sourceTree = "<group>";
+		};
+		A7717CBE1F2657BD00A3D2B6 /* template */ = {
+			isa = PBXGroup;
+			children = (
+				A7717CBF1F2657BD00A3D2B6 /* README.md */,
+				A7717CC11F26582400A3D2B6 /* Structure.md */,
+			);
+			path = template;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,7 +204,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7717CC01F2657BD00A3D2B6 /* README.md in Sources */,
+				A7717CC21F26582400A3D2B6 /* Structure.md in Sources */,
 				A77166021F262A2F00A3D2B6 /* main.cpp in Sources */,
+				A7717CA01F26573E00A3D2B6 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
