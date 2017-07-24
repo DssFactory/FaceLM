@@ -29,6 +29,7 @@
 		A77166011F262A2F00A3D2B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A77166081F262E3000A3D2B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A771660A1F2630D500A3D2B6 /* README-Template.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README-Template.md"; sourceTree = "<group>"; };
+		A771660C1F26355500A3D2B6 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				A771660A1F2630D500A3D2B6 /* README-Template.md */,
+				A771660C1F26355500A3D2B6 /* LICENSE.txt */,
 				A77166081F262E3000A3D2B6 /* README.md */,
 				A77166001F262A2F00A3D2B6 /* FaceLM */,
 				A77165FF1F262A2F00A3D2B6 /* Products */,
