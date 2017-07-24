@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A77166021F262A2F00A3D2B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77166011F262A2F00A3D2B6 /* main.cpp */; };
 		A77166091F262E3000A3D2B6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A77166081F262E3000A3D2B6 /* README.md */; };
+		A771660B1F2630D500A3D2B6 /* README-Template.md in Sources */ = {isa = PBXBuildFile; fileRef = A771660A1F2630D500A3D2B6 /* README-Template.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		A77165FE1F262A2F00A3D2B6 /* FaceLM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FaceLM; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77166011F262A2F00A3D2B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		A77166081F262E3000A3D2B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A771660A1F2630D500A3D2B6 /* README-Template.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README-Template.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		A77165F51F262A2F00A3D2B6 = {
 			isa = PBXGroup;
 			children = (
+				A771660A1F2630D500A3D2B6 /* README-Template.md */,
 				A77166081F262E3000A3D2B6 /* README.md */,
 				A77166001F262A2F00A3D2B6 /* FaceLM */,
 				A77165FF1F262A2F00A3D2B6 /* Products */,
@@ -121,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A771660B1F2630D500A3D2B6 /* README-Template.md in Sources */,
 				A77166091F262E3000A3D2B6 /* README.md in Sources */,
 				A77166021F262A2F00A3D2B6 /* main.cpp in Sources */,
 			);

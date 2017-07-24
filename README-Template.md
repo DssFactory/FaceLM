@@ -1,6 +1,6 @@
-# FaceLM
+# Project Title
 
-FaceLM is an online face landmark decetion project.
+One Paragraph of project description goes here
 
 ## Getting Started
 
@@ -72,9 +72,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **[Quan Pan](http://www.quanpan302.com)** - *Co-Owner of [DssFactory](http://www.dssfactory.com)*
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [projects](https://github.com/quanpan302) who participated.
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
@@ -85,3 +85,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone who's code was used
 * Inspiration
 * etc
+
