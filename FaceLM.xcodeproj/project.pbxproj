@@ -13,6 +13,7 @@
 		A7717CC21F26582400A3D2B6 /* Structure.md in Sources */ = {isa = PBXBuildFile; fileRef = A7717CC11F26582400A3D2B6 /* Structure.md */; };
 		A7F039FA1F273FC50065C400 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = A7F039F91F273FC50065C400 /* CONTRIBUTING.md */; };
 		A7F039FC1F2740C60065C400 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = A7F039FB1F2740C60065C400 /* CONTRIBUTING.md */; };
+		A7F03A021F2745130065C400 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A7F03A011F2745130065C400 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,10 @@
 		A7717CC11F26582400A3D2B6 /* Structure.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Structure.md; sourceTree = "<group>"; };
 		A7F039F91F273FC50065C400 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		A7F039FB1F2740C60065C400 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		A7F039FD1F2744040065C400 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		A7F039FE1F2744350065C400 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		A7F039FF1F27449E0065C400 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		A7F03A011F2745130065C400 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +62,9 @@
 				A77166101F26377800A3D2B6 /* data */,
 				A771660F1F26373000A3D2B6 /* docs */,
 				A77166131F2638AC00A3D2B6 /* lib */,
-				A771660C1F26355500A3D2B6 /* LICENSE.txt */,
+				A7F039FF1F27449E0065C400 /* CMakeLists.txt */,
 				A7F039F91F273FC50065C400 /* CONTRIBUTING.md */,
+				A771660C1F26355500A3D2B6 /* LICENSE.txt */,
 				A77166081F262E3000A3D2B6 /* README.md */,
 				A77166001F262A2F00A3D2B6 /* FaceLM */,
 				A77166111F26379000A3D2B6 /* examples */,
@@ -79,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				A77166011F262A2F00A3D2B6 /* main.cpp */,
+				A7F039FE1F2744350065C400 /* CMakeLists.txt */,
 			);
 			path = FaceLM;
 			sourceTree = "<group>";
@@ -100,6 +107,7 @@
 		A77166111F26379000A3D2B6 /* examples */ = {
 			isa = PBXGroup;
 			children = (
+				A7F039FD1F2744040065C400 /* CMakeLists.txt */,
 			);
 			path = examples;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 		A771721C1F26573900A3D2B6 /* project */ = {
 			isa = PBXGroup;
 			children = (
+				A7F03A001F2745130065C400 /* ML_CV-opencv */,
 				A771721D1F26573900A3D2B6 /* ML_CV-dlib-master */,
 			);
 			path = project;
@@ -135,6 +144,14 @@
 				A7F039FB1F2740C60065C400 /* CONTRIBUTING.md */,
 			);
 			path = template;
+			sourceTree = "<group>";
+		};
+		A7F03A001F2745130065C400 /* ML_CV-opencv */ = {
+			isa = PBXGroup;
+			children = (
+				A7F03A011F2745130065C400 /* README.md */,
+			);
+			path = "ML_CV-opencv";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +213,7 @@
 				A7717CC01F2657BD00A3D2B6 /* README.md in Sources */,
 				A7717CC21F26582400A3D2B6 /* Structure.md in Sources */,
 				A7F039FC1F2740C60065C400 /* CONTRIBUTING.md in Sources */,
+				A7F03A021F2745130065C400 /* README.md in Sources */,
 				A7F039FA1F273FC50065C400 /* CONTRIBUTING.md in Sources */,
 				A77166021F262A2F00A3D2B6 /* main.cpp in Sources */,
 				A7717CA01F26573E00A3D2B6 /* README.md in Sources */,

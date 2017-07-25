@@ -59,6 +59,7 @@ Add additional notes about how to deploy this on a live system
 ## Built With
 
 * [Dlib](http://dlib.net) - Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems.
+* [OpenCV](http://opencv.org) - Open Source Computer Vision Library
 
 ## Contributing
 
