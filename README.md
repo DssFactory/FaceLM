@@ -72,7 +72,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **[Quan Pan](http://www.quanpan302.com){target="_blank"}** - *Co-Owner of [DssFactory](http://www.dssfactory.com){target="_blank"}*
+* **[Quan Pan](http://www.quanpan302.com)** - *Co-Owner of [DssFactory](http://www.dssfactory.com)*
 
 See also the list of [projects](https://github.com/quanpan302) who participated.
 
