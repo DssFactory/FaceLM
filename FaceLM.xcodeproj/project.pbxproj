@@ -8,12 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A77166021F262A2F00A3D2B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A77166011F262A2F00A3D2B6 /* main.cpp */; };
-		A7717CA01F26573E00A3D2B6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A7717A2E1F26573E00A3D2B6 /* README.md */; };
-		A7717CC01F2657BD00A3D2B6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A7717CBF1F2657BD00A3D2B6 /* README.md */; };
-		A7717CC21F26582400A3D2B6 /* Structure.md in Sources */ = {isa = PBXBuildFile; fileRef = A7717CC11F26582400A3D2B6 /* Structure.md */; };
-		A7F039FA1F273FC50065C400 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = A7F039F91F273FC50065C400 /* CONTRIBUTING.md */; };
-		A7F039FC1F2740C60065C400 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = A7F039FB1F2740C60065C400 /* CONTRIBUTING.md */; };
-		A7F03A021F2745130065C400 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A7F03A011F2745130065C400 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -210,13 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7717CC01F2657BD00A3D2B6 /* README.md in Sources */,
-				A7717CC21F26582400A3D2B6 /* Structure.md in Sources */,
-				A7F039FC1F2740C60065C400 /* CONTRIBUTING.md in Sources */,
-				A7F03A021F2745130065C400 /* README.md in Sources */,
-				A7F039FA1F273FC50065C400 /* CONTRIBUTING.md in Sources */,
 				A77166021F262A2F00A3D2B6 /* main.cpp in Sources */,
-				A7717CA01F26573E00A3D2B6 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
